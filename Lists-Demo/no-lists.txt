@@ -1,0 +1,8 @@
+name = "Ash"
+name2 = name
+
+# change name2 to a different name
+name2 = "Dylan"
+
+print(name)
+print(name2)

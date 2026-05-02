@@ -1,0 +1,8 @@
+nameList = ["Ash"]
+nameList2 = nameList
+
+# change the first element to another name
+nameList2[0] = "Dylan"
+
+print(nameList)
+print(nameList2)
