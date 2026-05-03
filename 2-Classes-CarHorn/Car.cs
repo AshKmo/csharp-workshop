@@ -3,7 +3,7 @@
 	private int _distanceDriven;
 	private Horn _horn;
 
-	public Car(string name, int distanceDriven, Horn horn) {
+	public Car(string name, Horn horn) {
 		_name = name;
 		_distanceDriven = 0;
 		_horn = horn;
@@ -13,7 +13,7 @@
 		_distanceDriven += distance;
 	}
 
-	public void Beep() {
+	public void TootHorn() {
 		_horn.Activate();
 	}
 }
